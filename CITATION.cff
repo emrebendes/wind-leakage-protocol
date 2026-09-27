@@ -14,7 +14,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-09-27"
 license: MIT
-repository-code: "https://github.com/KULLANICI/wind_leakage_protocol"
+repository-code: "https://github.com/emrebendes/wind-leakage-protocol"
 doi: "10.5281/zenodo.XXXXXXX"
 preferred-citation:
   type: article
