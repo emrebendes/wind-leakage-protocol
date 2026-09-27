@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 8,
+    "num_layers": 5,
+    "dim_feedforward": 207,
+    "dropout": 0.02300984139873513,
+    "W": 512,
+    "look_back": 45,
+    "lr": 0.0010233165368870789,
+    "batch_size": 32
+  },
+  "best_value": 0.006934974930392435,
+  "budget": 50,
+  "trial_number": 84,
+  "selection": "first 50 completed trials, by trial number"
+}

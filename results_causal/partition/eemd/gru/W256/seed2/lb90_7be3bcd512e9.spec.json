@@ -1,0 +1,21 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "gru",
+  "W": 256,
+  "look_back": 90,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.03012190585168814,
+      "hidden_size": 197,
+      "look_back": 90,
+      "lr": 0.001750177034519668,
+      "num_layers": 6
+    }
+  }
+}

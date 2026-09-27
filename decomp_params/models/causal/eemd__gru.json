@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 103,
+    "num_layers": 4,
+    "dropout": 0.06665637684024515,
+    "W": 512,
+    "look_back": 153,
+    "lr": 0.0001784601141484767,
+    "batch_size": 32
+  },
+  "best_value": 0.010564001121629888,
+  "budget": 50,
+  "trial_number": 74,
+  "selection": "first 50 completed trials, by trial number"
+}

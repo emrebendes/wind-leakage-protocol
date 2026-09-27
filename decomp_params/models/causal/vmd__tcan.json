@@ -1,0 +1,20 @@
+{
+  "arm": "causal",
+  "decomposition": "vmd",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 113,
+    "num_layers": 8,
+    "kernel_size": 5,
+    "dropout": 0.22695523220501396,
+    "att_dim": 16,
+    "W": 256,
+    "look_back": 149,
+    "lr": 0.0005091295821266199,
+    "batch_size": 64
+  },
+  "best_value": 0.010582739560840985,
+  "budget": 50,
+  "trial_number": 81,
+  "selection": "first 50 completed trials, by trial number"
+}

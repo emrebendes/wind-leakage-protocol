@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "ceemdan",
+  "model": "cnn_lstm",
+  "W": 512,
+  "look_back": 110,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 64,
+      "cnn_filters": 36,
+      "cnn_kernel": 5,
+      "dropout": 0.0021702859670554246,
+      "look_back": 110,
+      "lr": 0.0007722513379890711,
+      "lstm_hidden": 172,
+      "lstm_layers": 3
+    }
+  }
+}

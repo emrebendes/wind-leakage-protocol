@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "vmd",
+  "model": "lstm",
+  "W": 256,
+  "look_back": 154,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.09700807749521358,
+      "hidden_size": 110,
+      "look_back": 154,
+      "lr": 0.0005149156097910008,
+      "num_layers": 4
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 168,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 64,
+      "dropout": 0.15342800657207956,
+      "kernel_size": 5,
+      "look_back": 168,
+      "lr": 0.000443424727116335,
+      "num_channels": 60,
+      "num_layers": 8
+    }
+  }
+}

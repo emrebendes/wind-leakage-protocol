@@ -1,0 +1,23 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "transformer",
+  "W": 1024,
+  "look_back": 155,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "d_model": 64,
+      "dim_feedforward": 155,
+      "dropout": 0.17257175861080976,
+      "look_back": 155,
+      "lr": 0.00017000094747856212,
+      "nhead": 8,
+      "num_layers": 6
+    }
+  }
+}

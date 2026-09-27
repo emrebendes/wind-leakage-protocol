@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "cnn_lstm",
+  "best_params": {
+    "cnn_filters": 69,
+    "cnn_kernel": 5,
+    "lstm_hidden": 256,
+    "lstm_layers": 1,
+    "dropout": 0.3051091528018757,
+    "W": 512,
+    "look_back": 70,
+    "lr": 0.0031242411508451144,
+    "batch_size": 32
+  },
+  "best_value": 0.0008550033857672809,
+  "budget": 50,
+  "trial_number": 101,
+  "selection": "first 50 completed trials, by trial number"
+}

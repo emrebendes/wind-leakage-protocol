@@ -1,0 +1,19 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 69,
+    "num_layers": 10,
+    "kernel_size": 3,
+    "dropout": 0.0038349854911901154,
+    "W": 256,
+    "look_back": 168,
+    "lr": 0.0008752590313884241,
+    "batch_size": 32
+  },
+  "best_value": 0.009662897422169454,
+  "budget": 50,
+  "trial_number": 106,
+  "selection": "first 50 completed trials, by trial number"
+}

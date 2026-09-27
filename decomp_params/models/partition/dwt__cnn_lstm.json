@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "cnn_lstm",
+  "best_params": {
+    "cnn_filters": 110,
+    "cnn_kernel": 3,
+    "lstm_hidden": 228,
+    "lstm_layers": 2,
+    "dropout": 0.07076226898448004,
+    "W": 512,
+    "look_back": 162,
+    "lr": 0.0010296629596740806,
+    "batch_size": 32
+  },
+  "best_value": 0.009414705494418741,
+  "budget": 50,
+  "trial_number": 228,
+  "selection": "first 50 completed trials, by trial number"
+}

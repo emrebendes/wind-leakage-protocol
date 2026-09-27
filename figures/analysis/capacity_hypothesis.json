@@ -1,0 +1,26 @@
+{
+  "parameter_counts": {
+    "bilstm": 2502024,
+    "cnn_lstm": 282524,
+    "gru": 67509,
+    "lstm": 348504,
+    "tcan": 971405,
+    "tcn": 713280,
+    "transformer": 360090
+  },
+  "mean_causal_gain_pct": {
+    "gru": -0.6749953727530078,
+    "cnn_lstm": -0.7507273851454758,
+    "lstm": -0.9043223403801768,
+    "transformer": -1.6468377334682418,
+    "tcn": -0.5821132049692984,
+    "tcan": -0.20624818743279305,
+    "bilstm": -0.7955197202383797
+  },
+  "log_capacity_vs_gain": {
+    "slope": 0.155891011462978,
+    "intercept": -1.6766931599075294,
+    "pearson_r": 0.1752306498533562
+  },
+  "supports_hypothesis": false
+}

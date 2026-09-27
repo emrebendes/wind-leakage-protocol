@@ -1,0 +1,20 @@
+{
+  "arm": "leaky",
+  "decomposition": "dwt",
+  "model": "cnn_lstm",
+  "best_params": {
+    "cnn_filters": 66,
+    "cnn_kernel": 5,
+    "lstm_hidden": 254,
+    "lstm_layers": 2,
+    "dropout": 0.27373419769871943,
+    "W": 1024,
+    "look_back": 140,
+    "lr": 0.0009387132045168143,
+    "batch_size": 64
+  },
+  "best_value": 0.009406574683693738,
+  "budget": 50,
+  "trial_number": 37,
+  "selection": "first 50 completed trials, by trial number"
+}

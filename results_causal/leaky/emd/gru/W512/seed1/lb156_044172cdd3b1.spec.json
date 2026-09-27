@@ -1,0 +1,21 @@
+{
+  "arm": "leaky",
+  "decomposition": "emd",
+  "model": "gru",
+  "W": 512,
+  "look_back": 156,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.005019628974106398,
+      "hidden_size": 210,
+      "look_back": 156,
+      "lr": 0.0002042828008852012,
+      "num_layers": 5
+    }
+  }
+}

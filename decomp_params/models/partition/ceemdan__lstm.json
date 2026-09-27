@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 224,
+    "num_layers": 2,
+    "dropout": 0.04370015354344737,
+    "W": 1024,
+    "look_back": 103,
+    "lr": 0.0009861955658363056,
+    "batch_size": 32
+  },
+  "best_value": 0.006318385191381168,
+  "budget": 50,
+  "trial_number": 57,
+  "selection": "first 50 completed trials, by trial number"
+}

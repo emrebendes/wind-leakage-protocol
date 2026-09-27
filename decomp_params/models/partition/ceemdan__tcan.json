@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 106,
+    "num_layers": 9,
+    "kernel_size": 2,
+    "dropout": 0.001322970127816861,
+    "att_dim": 64,
+    "W": 1024,
+    "look_back": 105,
+    "lr": 0.0004043769361591994,
+    "batch_size": 32
+  },
+  "best_value": 0.006558789051472186,
+  "budget": 50,
+  "trial_number": 52,
+  "selection": "first 50 completed trials, by trial number"
+}

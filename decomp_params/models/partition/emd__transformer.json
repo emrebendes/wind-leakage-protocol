@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "emd",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 8,
+    "num_layers": 2,
+    "dim_feedforward": 239,
+    "dropout": 0.03109387412951399,
+    "W": 256,
+    "look_back": 107,
+    "lr": 0.0012122203520214196,
+    "batch_size": 32
+  },
+  "best_value": 0.00763798039764739,
+  "budget": 50,
+  "trial_number": 85,
+  "selection": "first 50 completed trials, by trial number"
+}

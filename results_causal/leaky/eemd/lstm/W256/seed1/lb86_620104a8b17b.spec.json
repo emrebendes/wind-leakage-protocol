@@ -1,0 +1,21 @@
+{
+  "arm": "leaky",
+  "decomposition": "eemd",
+  "model": "lstm",
+  "W": 256,
+  "look_back": 86,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.02153882430269153,
+      "hidden_size": 189,
+      "look_back": 86,
+      "lr": 0.0006098896360478237,
+      "num_layers": 3
+    }
+  }
+}

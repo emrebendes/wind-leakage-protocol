@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "ceemdan",
+  "model": "tcan",
+  "W": 1024,
+  "look_back": 105,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 1024,
+      "att_dim": 64,
+      "batch_size": 32,
+      "dropout": 0.001322970127816861,
+      "kernel_size": 2,
+      "look_back": 105,
+      "lr": 0.0004043769361591994,
+      "num_channels": 106,
+      "num_layers": 9
+    }
+  }
+}

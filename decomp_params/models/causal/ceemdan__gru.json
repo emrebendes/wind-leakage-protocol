@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 83,
+    "num_layers": 5,
+    "dropout": 0.31053033602469826,
+    "W": 512,
+    "look_back": 161,
+    "lr": 0.0004146486380367719,
+    "batch_size": 32
+  },
+  "best_value": 0.010511580488692301,
+  "budget": 50,
+  "trial_number": 88,
+  "selection": "first 50 completed trials, by trial number"
+}

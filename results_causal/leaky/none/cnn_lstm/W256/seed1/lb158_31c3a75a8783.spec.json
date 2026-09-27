@@ -1,0 +1,23 @@
+{
+  "arm": "leaky",
+  "decomposition": "none",
+  "model": "cnn_lstm",
+  "W": 256,
+  "look_back": 158,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 128,
+      "cnn_filters": 113,
+      "cnn_kernel": 5,
+      "dropout": 0.2595665417825007,
+      "look_back": 158,
+      "lr": 0.0010374721525817253,
+      "lstm_hidden": 106,
+      "lstm_layers": 2
+    }
+  }
+}

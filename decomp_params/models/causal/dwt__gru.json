@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 48,
+    "num_layers": 6,
+    "dropout": 0.05222116554995776,
+    "W": 256,
+    "look_back": 162,
+    "lr": 0.0005994943408549673,
+    "batch_size": 32
+  },
+  "best_value": 0.010508850595722787,
+  "budget": 50,
+  "trial_number": 67,
+  "selection": "first 50 completed trials, by trial number"
+}

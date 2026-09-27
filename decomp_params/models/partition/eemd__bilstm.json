@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 44,
+    "num_layers": 3,
+    "dropout": 0.011594121746060788,
+    "W": 256,
+    "look_back": 145,
+    "lr": 0.0038007568889028716,
+    "batch_size": 64
+  },
+  "best_value": 0.006869477242804491,
+  "budget": 50,
+  "trial_number": 250,
+  "selection": "first 50 completed trials, by trial number"
+}

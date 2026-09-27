@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 4,
+    "num_layers": 4,
+    "dim_feedforward": 258,
+    "dropout": 0.0017536480941462047,
+    "W": 1024,
+    "look_back": 164,
+    "lr": 0.0001735043813067027,
+    "batch_size": 32
+  },
+  "best_value": 0.009854023204399988,
+  "budget": 50,
+  "trial_number": 97,
+  "selection": "first 50 completed trials, by trial number"
+}

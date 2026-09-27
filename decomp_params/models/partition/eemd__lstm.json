@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 245,
+    "num_layers": 2,
+    "dropout": 0.0012607429701942396,
+    "W": 512,
+    "look_back": 141,
+    "lr": 0.004817627927724626,
+    "batch_size": 32
+  },
+  "best_value": 0.006818433998821255,
+  "budget": 50,
+  "trial_number": 129,
+  "selection": "first 50 completed trials, by trial number"
+}

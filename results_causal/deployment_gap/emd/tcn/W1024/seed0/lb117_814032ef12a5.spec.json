@@ -1,0 +1,23 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "emd",
+  "model": "tcn",
+  "W": 1024,
+  "look_back": 117,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 1024,
+      "batch_size": 64,
+      "dropout": 0.0019745822252387243,
+      "kernel_size": 2,
+      "look_back": 117,
+      "lr": 0.0003121778073204436,
+      "num_channels": 108,
+      "num_layers": 6
+    }
+  }
+}

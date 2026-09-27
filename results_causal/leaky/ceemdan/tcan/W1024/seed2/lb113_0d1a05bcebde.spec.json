@@ -1,0 +1,23 @@
+{
+  "arm": "leaky",
+  "decomposition": "ceemdan",
+  "model": "tcan",
+  "W": 1024,
+  "look_back": 113,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "att_dim": 32,
+      "batch_size": 32,
+      "dropout": 0.000913444494687542,
+      "kernel_size": 2,
+      "look_back": 113,
+      "lr": 0.0007559280000869809,
+      "num_channels": 90,
+      "num_layers": 6
+    }
+  }
+}

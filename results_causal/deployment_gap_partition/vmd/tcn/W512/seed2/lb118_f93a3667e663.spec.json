@@ -1,0 +1,23 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "vmd",
+  "model": "tcn",
+  "W": 512,
+  "look_back": 118,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 5.285102288229895e-05,
+      "kernel_size": 5,
+      "look_back": 118,
+      "lr": 0.0001930997616807124,
+      "num_channels": 93,
+      "num_layers": 6
+    }
+  }
+}

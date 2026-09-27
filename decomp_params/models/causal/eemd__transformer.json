@@ -1,0 +1,20 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 8,
+    "num_layers": 2,
+    "dim_feedforward": 287,
+    "dropout": 0.11536990409629384,
+    "W": 256,
+    "look_back": 145,
+    "lr": 0.0004785765794519384,
+    "batch_size": 64
+  },
+  "best_value": 0.010729681701423265,
+  "budget": 50,
+  "trial_number": 56,
+  "selection": "first 50 completed trials, by trial number"
+}

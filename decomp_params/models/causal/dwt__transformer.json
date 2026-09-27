@@ -1,0 +1,20 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 32,
+    "nhead": 4,
+    "num_layers": 3,
+    "dim_feedforward": 279,
+    "dropout": 0.20903486007110503,
+    "W": 256,
+    "look_back": 143,
+    "lr": 0.001089113128850457,
+    "batch_size": 32
+  },
+  "best_value": 0.010669258770843347,
+  "budget": 50,
+  "trial_number": 87,
+  "selection": "first 50 completed trials, by trial number"
+}

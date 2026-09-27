@@ -1,0 +1,22 @@
+{
+  "arm": "leaky",
+  "decomposition": "none",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 162,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 128,
+      "dropout": 0.09408212924591534,
+      "kernel_size": 3,
+      "look_back": 162,
+      "lr": 0.00029045829935751404,
+      "num_channels": 109,
+      "num_layers": 7
+    }
+  }
+}

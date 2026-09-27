@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "emd",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 255,
+    "num_layers": 4,
+    "dropout": 0.013152377277791782,
+    "W": 256,
+    "look_back": 109,
+    "lr": 0.0010822555158368913,
+    "batch_size": 64
+  },
+  "best_value": 0.0069642420222935,
+  "budget": 50,
+  "trial_number": 31,
+  "selection": "first 50 completed trials, by trial number"
+}

@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "emd",
+  "model": "lstm",
+  "W": 512,
+  "look_back": 31,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.028064036164184708,
+      "hidden_size": 186,
+      "look_back": 31,
+      "lr": 0.0020178116563858875,
+      "num_layers": 2
+    }
+  }
+}

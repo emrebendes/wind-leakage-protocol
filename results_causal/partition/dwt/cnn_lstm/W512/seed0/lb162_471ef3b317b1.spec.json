@@ -1,0 +1,23 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "cnn_lstm",
+  "W": 512,
+  "look_back": 162,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "cnn_filters": 110,
+      "cnn_kernel": 3,
+      "dropout": 0.07076226898448004,
+      "look_back": 162,
+      "lr": 0.0010296629596740806,
+      "lstm_hidden": 228,
+      "lstm_layers": 2
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "cnn_lstm",
+  "best_params": {
+    "cnn_filters": 119,
+    "cnn_kernel": 3,
+    "lstm_hidden": 104,
+    "lstm_layers": 1,
+    "dropout": 0.15294990658528276,
+    "W": 1024,
+    "look_back": 152,
+    "lr": 0.0016346979069829298,
+    "batch_size": 32
+  },
+  "best_value": 0.010524343341612853,
+  "budget": 50,
+  "trial_number": 51,
+  "selection": "first 50 completed trials, by trial number"
+}

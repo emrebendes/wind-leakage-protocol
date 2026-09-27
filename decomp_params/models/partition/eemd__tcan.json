@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 86,
+    "num_layers": 9,
+    "kernel_size": 5,
+    "dropout": 0.05490604377024658,
+    "att_dim": 64,
+    "W": 256,
+    "look_back": 76,
+    "lr": 0.00017861746223616905,
+    "batch_size": 32
+  },
+  "best_value": 0.007331649087823163,
+  "budget": 50,
+  "trial_number": 61,
+  "selection": "first 50 completed trials, by trial number"
+}

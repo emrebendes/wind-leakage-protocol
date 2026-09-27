@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "bilstm",
+  "W": 512,
+  "look_back": 159,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 64,
+      "dropout": 0.041481400159776805,
+      "hidden_size": 126,
+      "look_back": 159,
+      "lr": 0.00389135418678564,
+      "num_layers": 4
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "tcan",
+  "W": 256,
+  "look_back": 168,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "att_dim": 64,
+      "batch_size": 64,
+      "dropout": 0.2553788866967379,
+      "kernel_size": 3,
+      "look_back": 168,
+      "lr": 0.0013879684595028035,
+      "num_channels": 87,
+      "num_layers": 6
+    }
+  }
+}

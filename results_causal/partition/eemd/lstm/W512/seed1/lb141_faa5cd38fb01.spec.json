@@ -1,0 +1,21 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "lstm",
+  "W": 512,
+  "look_back": 141,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.0012607429701942396,
+      "hidden_size": 245,
+      "look_back": 141,
+      "lr": 0.004817627927724626,
+      "num_layers": 2
+    }
+  }
+}

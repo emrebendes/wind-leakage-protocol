@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "ceemdan",
+  "model": "bilstm",
+  "W": 512,
+  "look_back": 52,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.00030639795285115445,
+      "hidden_size": 49,
+      "look_back": 52,
+      "lr": 0.0012031926020928646,
+      "num_layers": 3
+    }
+  }
+}

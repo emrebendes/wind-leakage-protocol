@@ -1,0 +1,18 @@
+{
+  "arm": "leaky",
+  "decomposition": "emd",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 144,
+    "num_layers": 4,
+    "dropout": 0.0030940069637114265,
+    "W": 1024,
+    "look_back": 105,
+    "lr": 0.0006295525185424428,
+    "batch_size": 32
+  },
+  "best_value": 0.007508083356496615,
+  "budget": 50,
+  "trial_number": 77,
+  "selection": "first 50 completed trials, by trial number"
+}

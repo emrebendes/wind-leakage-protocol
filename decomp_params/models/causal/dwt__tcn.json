@@ -1,0 +1,19 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 60,
+    "num_layers": 8,
+    "kernel_size": 5,
+    "dropout": 0.15342800657207956,
+    "W": 256,
+    "look_back": 168,
+    "lr": 0.000443424727116335,
+    "batch_size": 64
+  },
+  "best_value": 0.010445356073383337,
+  "budget": 50,
+  "trial_number": 21,
+  "selection": "first 50 completed trials, by trial number"
+}

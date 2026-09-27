@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "vmd",
+  "model": "cnn_lstm",
+  "W": 512,
+  "look_back": 148,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "cnn_filters": 114,
+      "cnn_kernel": 3,
+      "dropout": 0.1830530336629968,
+      "look_back": 148,
+      "lr": 0.0032283979503086144,
+      "lstm_hidden": 226,
+      "lstm_layers": 1
+    }
+  }
+}

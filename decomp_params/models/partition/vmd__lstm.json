@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 254,
+    "num_layers": 2,
+    "dropout": 0.0416088547958965,
+    "W": 512,
+    "look_back": 85,
+    "lr": 0.003873471972930631,
+    "batch_size": 32
+  },
+  "best_value": 0.0009721324349550578,
+  "budget": 50,
+  "trial_number": 52,
+  "selection": "first 50 completed trials, by trial number"
+}

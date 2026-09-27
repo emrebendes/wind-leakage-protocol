@@ -1,0 +1,19 @@
+{
+  "arm": "partition",
+  "decomposition": "emd",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 122,
+    "num_layers": 7,
+    "kernel_size": 3,
+    "dropout": 0.0004487728200464891,
+    "W": 256,
+    "look_back": 110,
+    "lr": 0.0011452054861966904,
+    "batch_size": 32
+  },
+  "best_value": 0.007395369487766844,
+  "budget": 50,
+  "trial_number": 31,
+  "selection": "first 50 completed trials, by trial number"
+}

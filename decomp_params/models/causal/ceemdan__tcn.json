@@ -1,0 +1,19 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 118,
+    "num_layers": 8,
+    "kernel_size": 3,
+    "dropout": 0.2817935917851289,
+    "W": 256,
+    "look_back": 165,
+    "lr": 0.00010010245831134169,
+    "batch_size": 64
+  },
+  "best_value": 0.010536588812485719,
+  "budget": 50,
+  "trial_number": 24,
+  "selection": "first 50 completed trials, by trial number"
+}

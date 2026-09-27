@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "vmd",
+  "model": "transformer",
+  "W": 512,
+  "look_back": 128,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "d_model": 32,
+      "dim_feedforward": 380,
+      "dropout": 0.01271428010384551,
+      "look_back": 128,
+      "lr": 0.0005922925031064319,
+      "nhead": 8,
+      "num_layers": 3
+    }
+  }
+}

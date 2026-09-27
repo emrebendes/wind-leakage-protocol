@@ -1,0 +1,44 @@
+[
+  {
+    "params": {
+      "max_imfs": 4
+    },
+    "median_score": 6.111832121797432
+  },
+  {
+    "params": {
+      "max_imfs": 5
+    },
+    "median_score": 6.127516188245577
+  },
+  {
+    "params": {
+      "max_imfs": 6
+    },
+    "median_score": 6.152116492308247
+  },
+  {
+    "params": {
+      "max_imfs": 7
+    },
+    "median_score": 6.153069436343836
+  },
+  {
+    "params": {
+      "max_imfs": 8
+    },
+    "median_score": 6.153069436343836
+  },
+  {
+    "params": {
+      "max_imfs": 9
+    },
+    "median_score": 6.153069436343836
+  },
+  {
+    "params": {
+      "max_imfs": 10
+    },
+    "median_score": 6.153069436343836
+  }
+]

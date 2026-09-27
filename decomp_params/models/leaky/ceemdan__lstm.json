@@ -1,0 +1,18 @@
+{
+  "arm": "leaky",
+  "decomposition": "ceemdan",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 117,
+    "num_layers": 4,
+    "dropout": 0.00045638392613771826,
+    "W": 1024,
+    "look_back": 166,
+    "lr": 0.0015692479191772542,
+    "batch_size": 32
+  },
+  "best_value": 0.005342643191345418,
+  "budget": 50,
+  "trial_number": 105,
+  "selection": "first 50 completed trials, by trial number"
+}

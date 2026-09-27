@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 93,
+    "num_layers": 7,
+    "kernel_size": 5,
+    "dropout": 0.05136796616887078,
+    "att_dim": 32,
+    "W": 512,
+    "look_back": 51,
+    "lr": 0.00037526362711622974,
+    "batch_size": 32
+  },
+  "best_value": 0.0011150289246609482,
+  "budget": 50,
+  "trial_number": 41,
+  "selection": "first 50 completed trials, by trial number"
+}

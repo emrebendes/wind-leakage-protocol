@@ -1,0 +1,23 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "dwt",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 168,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.0038349854911901154,
+      "kernel_size": 3,
+      "look_back": 168,
+      "lr": 0.0008752590313884241,
+      "num_channels": 69,
+      "num_layers": 10
+    }
+  }
+}

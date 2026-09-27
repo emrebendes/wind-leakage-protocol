@@ -1,0 +1,22 @@
+{
+  "arm": "partition",
+  "decomposition": "eemd",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 91,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 64,
+      "dropout": 0.09055854187327633,
+      "kernel_size": 3,
+      "look_back": 91,
+      "lr": 0.0010116566081148333,
+      "num_channels": 116,
+      "num_layers": 5
+    }
+  }
+}

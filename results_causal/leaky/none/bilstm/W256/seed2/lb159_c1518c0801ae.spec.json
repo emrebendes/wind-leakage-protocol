@@ -1,0 +1,21 @@
+{
+  "arm": "leaky",
+  "decomposition": "none",
+  "model": "bilstm",
+  "W": 256,
+  "look_back": 159,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.023379591467682825,
+      "hidden_size": 92,
+      "look_back": 159,
+      "lr": 0.0007433419670689689,
+      "num_layers": 2
+    }
+  }
+}

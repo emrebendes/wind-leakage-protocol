@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "gru",
+  "W": 512,
+  "look_back": 153,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.06665637684024515,
+      "hidden_size": 103,
+      "look_back": 153,
+      "lr": 0.0001784601141484767,
+      "num_layers": 4
+    }
+  }
+}

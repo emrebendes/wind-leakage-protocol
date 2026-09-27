@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "dwt",
+  "model": "tcan",
+  "W": 1024,
+  "look_back": 166,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 1024,
+      "att_dim": 32,
+      "batch_size": 32,
+      "dropout": 0.053426080621740875,
+      "kernel_size": 3,
+      "look_back": 166,
+      "lr": 0.0011030575650340646,
+      "num_channels": 74,
+      "num_layers": 7
+    }
+  }
+}

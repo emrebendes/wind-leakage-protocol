@@ -1,0 +1,23 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "transformer",
+  "W": 256,
+  "look_back": 143,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "d_model": 32,
+      "dim_feedforward": 279,
+      "dropout": 0.20903486007110503,
+      "look_back": 143,
+      "lr": 0.001089113128850457,
+      "nhead": 4,
+      "num_layers": 3
+    }
+  }
+}

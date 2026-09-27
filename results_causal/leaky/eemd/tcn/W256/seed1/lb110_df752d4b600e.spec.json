@@ -1,0 +1,22 @@
+{
+  "arm": "leaky",
+  "decomposition": "eemd",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 110,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.037086353957101845,
+      "kernel_size": 3,
+      "look_back": 110,
+      "lr": 0.00033947431927151876,
+      "num_channels": 94,
+      "num_layers": 5
+    }
+  }
+}

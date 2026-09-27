@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "cnn_lstm",
+  "best_params": {
+    "cnn_filters": 94,
+    "cnn_kernel": 5,
+    "lstm_hidden": 164,
+    "lstm_layers": 3,
+    "dropout": 0.026322889466911026,
+    "W": 1024,
+    "look_back": 137,
+    "lr": 0.002103825244831624,
+    "batch_size": 64
+  },
+  "best_value": 0.006312643574216426,
+  "budget": 50,
+  "trial_number": 19,
+  "selection": "first 50 completed trials, by trial number"
+}

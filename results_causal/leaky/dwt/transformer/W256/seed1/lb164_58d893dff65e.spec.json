@@ -1,0 +1,23 @@
+{
+  "arm": "leaky",
+  "decomposition": "dwt",
+  "model": "transformer",
+  "W": 256,
+  "look_back": 164,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "d_model": 64,
+      "dim_feedforward": 337,
+      "dropout": 0.0018671716854489102,
+      "look_back": 164,
+      "lr": 0.0004570991673399724,
+      "nhead": 2,
+      "num_layers": 2
+    }
+  }
+}

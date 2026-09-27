@@ -1,0 +1,282 @@
+[
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 2
+    },
+    "median_score": 6.024223695625841
+  },
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 3
+    },
+    "median_score": 6.030965889487139
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 2
+    },
+    "median_score": 6.032556985673404
+  },
+  {
+    "params": {
+      "wavelet": "coif3",
+      "level": 2
+    },
+    "median_score": 6.034298115624264
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 2
+    },
+    "median_score": 6.035536114841866
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 3
+    },
+    "median_score": 6.036927331692075
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 2
+    },
+    "median_score": 6.037726915349436
+  },
+  {
+    "params": {
+      "wavelet": "coif5",
+      "level": 2
+    },
+    "median_score": 6.040647935003026
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 2
+    },
+    "median_score": 6.040825965320887
+  },
+  {
+    "params": {
+      "wavelet": "coif3",
+      "level": 3
+    },
+    "median_score": 6.042483273535806
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 3
+    },
+    "median_score": 6.04382111830835
+  },
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 1
+    },
+    "median_score": 6.044223137870499
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 3
+    },
+    "median_score": 6.044608091112902
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 3
+    },
+    "median_score": 6.04608846850308
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 1
+    },
+    "median_score": 6.046126585005481
+  },
+  {
+    "params": {
+      "wavelet": "coif3",
+      "level": 1
+    },
+    "median_score": 6.04626350942627
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 1
+    },
+    "median_score": 6.0465283584495095
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 1
+    },
+    "median_score": 6.046965216168827
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 1
+    },
+    "median_score": 6.047023025187345
+  },
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 5
+    },
+    "median_score": 6.048704610986068
+  },
+  {
+    "params": {
+      "wavelet": "coif5",
+      "level": 1
+    },
+    "median_score": 6.048745952235343
+  },
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 4
+    },
+    "median_score": 6.049039871895316
+  },
+  {
+    "params": {
+      "wavelet": "coif5",
+      "level": 3
+    },
+    "median_score": 6.049136237083917
+  },
+  {
+    "params": {
+      "wavelet": "db4",
+      "level": 6
+    },
+    "median_score": 6.051485455129669
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 4
+    },
+    "median_score": 6.053714708752935
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 5
+    },
+    "median_score": 6.054373357455622
+  },
+  {
+    "params": {
+      "wavelet": "sym5",
+      "level": 6
+    },
+    "median_score": 6.054373357455622
+  },
+  {
+    "params": {
+      "wavelet": "coif3",
+      "level": 4
+    },
+    "median_score": 6.06245885803958
+  },
+  {
+    "params": {
+      "wavelet": "coif3",
+      "level": 5
+    },
+    "median_score": 6.06245885803958
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 5
+    },
+    "median_score": 6.062897567094407
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 6
+    },
+    "median_score": 6.062897567094407
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 4
+    },
+    "median_score": 6.0637802514420045
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 5
+    },
+    "median_score": 6.06553000356152
+  },
+  {
+    "params": {
+      "wavelet": "db6",
+      "level": 6
+    },
+    "median_score": 6.06553000356152
+  },
+  {
+    "params": {
+      "wavelet": "sym7",
+      "level": 4
+    },
+    "median_score": 6.067088023416151
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 5
+    },
+    "median_score": 6.068029839778111
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 6
+    },
+    "median_score": 6.068029839778111
+  },
+  {
+    "params": {
+      "wavelet": "db8",
+      "level": 4
+    },
+    "median_score": 6.0696285493781
+  },
+  {
+    "params": {
+      "wavelet": "coif5",
+      "level": 4
+    },
+    "median_score": 6.072602416663997
+  },
+  {
+    "params": {
+      "wavelet": "coif5",
+      "level": 5
+    },
+    "median_score": 6.072602416663997
+  }
+]

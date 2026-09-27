@@ -1,0 +1,18 @@
+{
+  "arm": "leaky",
+  "decomposition": "emd",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 210,
+    "num_layers": 5,
+    "dropout": 0.005019628974106398,
+    "W": 512,
+    "look_back": 156,
+    "lr": 0.0002042828008852012,
+    "batch_size": 32
+  },
+  "best_value": 0.007305559866512433,
+  "budget": 50,
+  "trial_number": 67,
+  "selection": "first 50 completed trials, by trial number"
+}

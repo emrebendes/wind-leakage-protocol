@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "vmd",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 139,
+    "num_layers": 6,
+    "dropout": 0.07431552854188553,
+    "W": 1024,
+    "look_back": 145,
+    "lr": 0.0002628676597552487,
+    "batch_size": 32
+  },
+  "best_value": 0.010562097787952574,
+  "budget": 50,
+  "trial_number": 33,
+  "selection": "first 50 completed trials, by trial number"
+}

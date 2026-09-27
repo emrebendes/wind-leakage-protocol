@@ -1,0 +1,23 @@
+{
+  "arm": "leaky",
+  "decomposition": "vmd",
+  "model": "transformer",
+  "W": 512,
+  "look_back": 119,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "d_model": 128,
+      "dim_feedforward": 133,
+      "dropout": 0.06838605755475274,
+      "look_back": 119,
+      "lr": 0.0006213804087830966,
+      "nhead": 8,
+      "num_layers": 5
+    }
+  }
+}

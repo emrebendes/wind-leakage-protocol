@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "eemd",
+  "model": "cnn_lstm",
+  "W": 256,
+  "look_back": 141,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "cnn_filters": 120,
+      "cnn_kernel": 2,
+      "dropout": 0.30909887847217,
+      "look_back": 141,
+      "lr": 0.0006842026681905107,
+      "lstm_hidden": 217,
+      "lstm_layers": 2
+    }
+  }
+}

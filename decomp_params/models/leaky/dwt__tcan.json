@@ -1,0 +1,20 @@
+{
+  "arm": "leaky",
+  "decomposition": "dwt",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 74,
+    "num_layers": 7,
+    "kernel_size": 3,
+    "dropout": 0.053426080621740875,
+    "att_dim": 32,
+    "W": 1024,
+    "look_back": 166,
+    "lr": 0.0011030575650340646,
+    "batch_size": 32
+  },
+  "best_value": 0.009737273681407364,
+  "budget": 50,
+  "trial_number": 84,
+  "selection": "first 50 completed trials, by trial number"
+}

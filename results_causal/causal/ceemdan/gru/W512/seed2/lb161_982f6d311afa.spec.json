@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "gru",
+  "W": 512,
+  "look_back": 161,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.31053033602469826,
+      "hidden_size": 83,
+      "look_back": 161,
+      "lr": 0.0004146486380367719,
+      "num_layers": 5
+    }
+  }
+}

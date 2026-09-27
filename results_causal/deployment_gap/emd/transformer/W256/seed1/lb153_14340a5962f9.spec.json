@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "emd",
+  "model": "transformer",
+  "W": 256,
+  "look_back": 153,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "d_model": 256,
+      "dim_feedforward": 268,
+      "dropout": 0.02897828196902576,
+      "look_back": 153,
+      "lr": 0.0003177022323041646,
+      "nhead": 4,
+      "num_layers": 4
+    }
+  }
+}

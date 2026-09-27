@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 175,
+    "num_layers": 3,
+    "dropout": 0.026413117415906694,
+    "W": 256,
+    "look_back": 156,
+    "lr": 0.0018365420402735467,
+    "batch_size": 32
+  },
+  "best_value": 0.009479315319958215,
+  "budget": 50,
+  "trial_number": 148,
+  "selection": "first 50 completed trials, by trial number"
+}

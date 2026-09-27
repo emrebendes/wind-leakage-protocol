@@ -1,0 +1,23 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "ceemdan",
+  "model": "tcn",
+  "W": 512,
+  "look_back": 157,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.03429019343197595,
+      "kernel_size": 5,
+      "look_back": 157,
+      "lr": 0.0001874146616102149,
+      "num_channels": 121,
+      "num_layers": 5
+    }
+  }
+}

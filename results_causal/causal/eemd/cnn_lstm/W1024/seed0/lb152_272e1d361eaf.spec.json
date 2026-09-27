@@ -1,0 +1,23 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "cnn_lstm",
+  "W": 1024,
+  "look_back": 152,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "cnn_filters": 119,
+      "cnn_kernel": 3,
+      "dropout": 0.15294990658528276,
+      "look_back": 152,
+      "lr": 0.0016346979069829298,
+      "lstm_hidden": 104,
+      "lstm_layers": 1
+    }
+  }
+}

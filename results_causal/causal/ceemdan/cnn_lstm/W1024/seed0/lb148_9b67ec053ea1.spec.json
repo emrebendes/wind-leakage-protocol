@@ -1,0 +1,23 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "cnn_lstm",
+  "W": 1024,
+  "look_back": 148,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "cnn_filters": 101,
+      "cnn_kernel": 2,
+      "dropout": 0.2668054123034932,
+      "look_back": 148,
+      "lr": 0.0011788996769558258,
+      "lstm_hidden": 89,
+      "lstm_layers": 2
+    }
+  }
+}

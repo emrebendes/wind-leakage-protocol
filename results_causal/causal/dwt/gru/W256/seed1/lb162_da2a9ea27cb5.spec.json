@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "gru",
+  "W": 256,
+  "look_back": 162,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.05222116554995776,
+      "hidden_size": 48,
+      "look_back": 162,
+      "lr": 0.0005994943408549673,
+      "num_layers": 6
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "dwt",
+  "model": "lstm",
+  "W": 1024,
+  "look_back": 133,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "dropout": 0.03684604607829575,
+      "hidden_size": 196,
+      "look_back": 133,
+      "lr": 0.002344794686222667,
+      "num_layers": 3
+    }
+  }
+}

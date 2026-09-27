@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "eemd",
+  "model": "transformer",
+  "W": 256,
+  "look_back": 117,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "d_model": 128,
+      "dim_feedforward": 366,
+      "dropout": 0.09162916113835678,
+      "look_back": 117,
+      "lr": 0.0005930090301623808,
+      "nhead": 2,
+      "num_layers": 4
+    }
+  }
+}

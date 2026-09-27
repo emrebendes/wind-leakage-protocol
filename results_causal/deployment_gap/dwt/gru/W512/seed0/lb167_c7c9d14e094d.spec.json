@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "dwt",
+  "model": "gru",
+  "W": 512,
+  "look_back": 167,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 64,
+      "dropout": 0.006258964026878339,
+      "hidden_size": 24,
+      "look_back": 167,
+      "lr": 0.002217298832927398,
+      "num_layers": 4
+    }
+  }
+}

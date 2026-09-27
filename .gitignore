@@ -1,0 +1,43 @@
+# Data (third-party, Turkish State Meteorological Service) — never committed
+data_files/*
+!data_files/README.md
+!data_files/.gitkeep
+
+# Large run artifacts
+*.npz
+*.pt
+*.pth
+*.ckpt
+causal_cache/*
+!causal_cache/.gitkeep
+models_causal/*
+!models_causal/.gitkeep
+state/*
+!state/.gitkeep
+logs/*
+!logs/.gitkeep
+*.db
+*.db-wal
+*.db-shm
+*.tar.gz
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.fuse_hidden*
+
+# Manuscript and session notes never live in this repository
+*.docx
+*.pdf
+yedek/
+makale/

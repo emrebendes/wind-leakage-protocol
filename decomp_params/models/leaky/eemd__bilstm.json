@@ -1,0 +1,18 @@
+{
+  "arm": "leaky",
+  "decomposition": "eemd",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 138,
+    "num_layers": 3,
+    "dropout": 0.018238737584276465,
+    "W": 256,
+    "look_back": 133,
+    "lr": 0.003448372555815624,
+    "batch_size": 32
+  },
+  "best_value": 0.0057196698055411565,
+  "budget": 50,
+  "trial_number": 109,
+  "selection": "first 50 completed trials, by trial number"
+}

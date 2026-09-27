@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "dwt",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 150,
+    "num_layers": 4,
+    "dropout": 0.11777114291083177,
+    "W": 256,
+    "look_back": 158,
+    "lr": 0.0003573674727463788,
+    "batch_size": 64
+  },
+  "best_value": 0.010513715698168828,
+  "budget": 50,
+  "trial_number": 53,
+  "selection": "first 50 completed trials, by trial number"
+}

@@ -1,0 +1,22 @@
+{
+  "arm": "causal",
+  "decomposition": "vmd",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 153,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 128,
+      "dropout": 0.2889396729155284,
+      "kernel_size": 5,
+      "look_back": 153,
+      "lr": 0.00021315002160034852,
+      "num_channels": 113,
+      "num_layers": 6
+    }
+  }
+}

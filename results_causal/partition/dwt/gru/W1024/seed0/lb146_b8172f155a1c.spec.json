@@ -1,0 +1,21 @@
+{
+  "arm": "partition",
+  "decomposition": "dwt",
+  "model": "gru",
+  "W": 1024,
+  "look_back": 146,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "dropout": 0.0009163491201904864,
+      "hidden_size": 37,
+      "look_back": 146,
+      "lr": 0.0006189966103322822,
+      "num_layers": 5
+    }
+  }
+}

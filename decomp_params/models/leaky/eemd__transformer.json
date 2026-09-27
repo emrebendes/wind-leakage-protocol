@@ -1,0 +1,20 @@
+{
+  "arm": "leaky",
+  "decomposition": "eemd",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 8,
+    "num_layers": 5,
+    "dim_feedforward": 232,
+    "dropout": 0.01166040416413548,
+    "W": 512,
+    "look_back": 59,
+    "lr": 0.0012835752248116388,
+    "batch_size": 64
+  },
+  "best_value": 0.006412129300909165,
+  "budget": 50,
+  "trial_number": 101,
+  "selection": "first 50 completed trials, by trial number"
+}

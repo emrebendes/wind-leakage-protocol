@@ -1,0 +1,23 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "cnn_lstm",
+  "W": 1024,
+  "look_back": 137,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 64,
+      "cnn_filters": 94,
+      "cnn_kernel": 5,
+      "dropout": 0.026322889466911026,
+      "look_back": 137,
+      "lr": 0.002103825244831624,
+      "lstm_hidden": 164,
+      "lstm_layers": 3
+    }
+  }
+}

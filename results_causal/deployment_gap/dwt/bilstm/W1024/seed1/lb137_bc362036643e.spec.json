@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "dwt",
+  "model": "bilstm",
+  "W": 1024,
+  "look_back": 137,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 1024,
+      "batch_size": 64,
+      "dropout": 0.029935527403555214,
+      "hidden_size": 205,
+      "look_back": 137,
+      "lr": 0.0011039344812735514,
+      "num_layers": 3
+    }
+  }
+}

@@ -1,0 +1,39 @@
+# TRUBA ortamı — hamsi CPU düğümleri için
+#
+#   module load miniconda3          # veya kümedeki python modülü
+#   conda create -n wb python=3.11 -y
+#   conda activate wb
+#   pip install -r requirements.txt
+#
+# TORCH'U ÖNCE KUR, AYRI OLARAK. Varsayılan `pip install torch` CUDA
+# tekerleğini indirir — 2+ GB ve hamsi'de GPU olmadığı için tamamen boşuna,
+# üstelik ev dizini kotasını yiyor:
+#
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+#
+# Yereldeki RTX 3060 makinesinde bunun tersi geçerli: orada normal CUDA
+# tekerleğini kur, çünkü train/deploy orada koşacak.
+
+# numpy 2 ZORUNLU, tercih değil. data_files/all_station_data.npy bir object
+# dizisi ve pickle'ı `numpy._core.multiarray` referansı taşıyor — bu modül
+# yalnızca numpy 2.0+ içinde var. numpy 1.x ile açmaya çalışırsan
+# `ModuleNotFoundError: No module named 'numpy._core'` alırsın.
+numpy>=2.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+torch>=2.0.0
+
+optuna>=3.4.0
+
+# Ayrıştırma. pip adları import adlarından farklı — doctor `pywt` ve `PyEMD`
+# arıyor, ama pip'ten istenmesi gerekenler bunlar:
+vmdpy>=0.2
+EMD-signal>=1.5.0      # import PyEMD  -> EMD, EEMD, CEEMDAN
+PyWavelets>=1.5.0      # import pywt
+
+# Şekiller yerelde üretiliyor; TRUBA'da gerekmez ama zararı da yok.
+matplotlib>=3.7.0
+
+# check/preflight bunu kullanıyor.
+pytest>=7.0.0

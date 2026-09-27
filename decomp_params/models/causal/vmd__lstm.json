@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "vmd",
+  "model": "lstm",
+  "best_params": {
+    "hidden_size": 110,
+    "num_layers": 4,
+    "dropout": 0.09700807749521358,
+    "W": 256,
+    "look_back": 154,
+    "lr": 0.0005149156097910008,
+    "batch_size": 32
+  },
+  "best_value": 0.010560175003961492,
+  "budget": 50,
+  "trial_number": 115,
+  "selection": "first 50 completed trials, by trial number"
+}

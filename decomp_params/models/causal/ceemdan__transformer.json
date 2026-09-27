@@ -1,0 +1,20 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 64,
+    "nhead": 8,
+    "num_layers": 6,
+    "dim_feedforward": 155,
+    "dropout": 0.17257175861080976,
+    "W": 1024,
+    "look_back": 155,
+    "lr": 0.00017000094747856212,
+    "batch_size": 32
+  },
+  "best_value": 0.010613876546924122,
+  "budget": 50,
+  "trial_number": 6,
+  "selection": "first 50 completed trials, by trial number"
+}

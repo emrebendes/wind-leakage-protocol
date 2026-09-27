@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 119,
+    "num_layers": 4,
+    "dropout": 0.05806785841904086,
+    "W": 256,
+    "look_back": 167,
+    "lr": 0.0016905392925934564,
+    "batch_size": 32
+  },
+  "best_value": 0.010599340378927687,
+  "budget": 50,
+  "trial_number": 30,
+  "selection": "first 50 completed trials, by trial number"
+}

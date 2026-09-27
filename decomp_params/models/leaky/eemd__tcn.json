@@ -1,0 +1,19 @@
+{
+  "arm": "leaky",
+  "decomposition": "eemd",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 94,
+    "num_layers": 5,
+    "kernel_size": 3,
+    "dropout": 0.037086353957101845,
+    "W": 256,
+    "look_back": 110,
+    "lr": 0.00033947431927151876,
+    "batch_size": 32
+  },
+  "best_value": 0.005964815684964354,
+  "budget": 50,
+  "trial_number": 48,
+  "selection": "first 50 completed trials, by trial number"
+}

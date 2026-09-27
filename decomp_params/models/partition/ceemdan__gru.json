@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "ceemdan",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 228,
+    "num_layers": 4,
+    "dropout": 0.11430477077589453,
+    "W": 1024,
+    "look_back": 114,
+    "lr": 0.0004912228134678316,
+    "batch_size": 32
+  },
+  "best_value": 0.006295028685305555,
+  "budget": 50,
+  "trial_number": 52,
+  "selection": "first 50 completed trials, by trial number"
+}

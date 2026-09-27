@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "vmd",
+  "model": "gru",
+  "W": 512,
+  "look_back": 101,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.011650792232019131,
+      "hidden_size": 224,
+      "look_back": 101,
+      "lr": 0.001507053517676883,
+      "num_layers": 2
+    }
+  }
+}

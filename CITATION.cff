@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this repository."
+title: "Per-origin decomposition protocol for wind speed forecasting: code and per-run results"
+authors:
+  - family-names: Bendeş
+    given-names: Emre
+    affiliation: "Nevşehir Hacı Bektaş Veli University, Department of Computer Engineering"
+  - family-names: Bilgiz Tüzemen
+    given-names: Gülnahar
+    affiliation: "Nevşehir Hacı Bektaş Veli University, Department of Metallurgical and Materials Engineering"
+  - family-names: Tükenmez
+    given-names: Ertuğrul
+    affiliation: "Nevşehir Meteorological Directorate"
+version: "1.0.0"
+date-released: "2026-09-27"
+license: MIT
+repository-code: "https://github.com/KULLANICI/wind_leakage_protocol"
+doi: "10.5281/zenodo.XXXXXXX"
+preferred-citation:
+  type: article
+  title: "A per-origin decomposition protocol for operationally valid wind speed forecasting: partition-level splitting is not sufficient"
+  authors:
+    - family-names: Bendeş
+      given-names: Emre
+    - family-names: Bilgiz Tüzemen
+      given-names: Gülnahar
+    - family-names: Tükenmez
+      given-names: Ertuğrul
+  journal: "Applied Energy"
+  year: 2026
+  notes: "submitted"

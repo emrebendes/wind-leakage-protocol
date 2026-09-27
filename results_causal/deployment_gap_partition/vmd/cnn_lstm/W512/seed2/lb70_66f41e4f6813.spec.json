@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "vmd",
+  "model": "cnn_lstm",
+  "W": 512,
+  "look_back": 70,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "cnn_filters": 69,
+      "cnn_kernel": 5,
+      "dropout": 0.3051091528018757,
+      "look_back": 70,
+      "lr": 0.0031242411508451144,
+      "lstm_hidden": 256,
+      "lstm_layers": 1
+    }
+  }
+}

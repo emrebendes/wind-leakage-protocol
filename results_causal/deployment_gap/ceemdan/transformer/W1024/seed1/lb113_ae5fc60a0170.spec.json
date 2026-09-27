@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "ceemdan",
+  "model": "transformer",
+  "W": 1024,
+  "look_back": 113,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "d_model": 64,
+      "dim_feedforward": 370,
+      "dropout": 0.000233916085965269,
+      "look_back": 113,
+      "lr": 0.0008036553203587351,
+      "nhead": 8,
+      "num_layers": 4
+    }
+  }
+}

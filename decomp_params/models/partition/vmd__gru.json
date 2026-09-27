@@ -1,0 +1,18 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "gru",
+  "best_params": {
+    "hidden_size": 152,
+    "num_layers": 2,
+    "dropout": 0.0022207797883324115,
+    "W": 512,
+    "look_back": 131,
+    "lr": 0.0017195326326578894,
+    "batch_size": 32
+  },
+  "best_value": 0.0009001678870677446,
+  "budget": 50,
+  "trial_number": 96,
+  "selection": "first 50 completed trials, by trial number"
+}

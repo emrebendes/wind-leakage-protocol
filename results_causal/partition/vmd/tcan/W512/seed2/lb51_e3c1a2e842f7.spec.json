@@ -1,0 +1,23 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "tcan",
+  "W": 512,
+  "look_back": 51,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "att_dim": 32,
+      "batch_size": 32,
+      "dropout": 0.05136796616887078,
+      "kernel_size": 5,
+      "look_back": 51,
+      "lr": 0.00037526362711622974,
+      "num_channels": 93,
+      "num_layers": 7
+    }
+  }
+}

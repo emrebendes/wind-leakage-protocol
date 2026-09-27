@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "vmd",
+  "model": "bilstm",
+  "W": 512,
+  "look_back": 46,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.0023665439632180388,
+      "hidden_size": 255,
+      "look_back": 46,
+      "lr": 0.0011414638584975184,
+      "num_layers": 2
+    }
+  }
+}

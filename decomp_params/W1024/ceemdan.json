@@ -1,0 +1,5 @@
+{
+  "max_imfs": 4,
+  "epsilon": 0.26,
+  "trials": 500
+}

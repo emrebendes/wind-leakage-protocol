@@ -1,0 +1,19 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "tcn",
+  "best_params": {
+    "num_channels": 41,
+    "num_layers": 10,
+    "kernel_size": 5,
+    "dropout": 0.2768292389062646,
+    "W": 256,
+    "look_back": 167,
+    "lr": 0.00064598051735711,
+    "batch_size": 32
+  },
+  "best_value": 0.010573687255143738,
+  "budget": 50,
+  "trial_number": 34,
+  "selection": "first 50 completed trials, by trial number"
+}

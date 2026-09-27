@@ -1,0 +1,21 @@
+{
+  "arm": "leaky",
+  "decomposition": "ceemdan",
+  "model": "bilstm",
+  "W": 1024,
+  "look_back": 99,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "dropout": 7.354861358206503e-05,
+      "hidden_size": 161,
+      "look_back": 99,
+      "lr": 0.0010631206446279344,
+      "num_layers": 4
+    }
+  }
+}

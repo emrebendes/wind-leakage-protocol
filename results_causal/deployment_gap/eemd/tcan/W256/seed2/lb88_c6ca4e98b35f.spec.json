@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "eemd",
+  "model": "tcan",
+  "W": 256,
+  "look_back": 88,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 256,
+      "att_dim": 64,
+      "batch_size": 64,
+      "dropout": 0.021258270912710868,
+      "kernel_size": 3,
+      "look_back": 88,
+      "lr": 0.000394388113172734,
+      "num_channels": 118,
+      "num_layers": 5
+    }
+  }
+}

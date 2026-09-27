@@ -1,0 +1,20 @@
+{
+  "arm": "leaky",
+  "decomposition": "ceemdan",
+  "model": "tcan",
+  "best_params": {
+    "num_channels": 90,
+    "num_layers": 6,
+    "kernel_size": 2,
+    "dropout": 0.000913444494687542,
+    "att_dim": 32,
+    "W": 1024,
+    "look_back": 113,
+    "lr": 0.0007559280000869809,
+    "batch_size": 32
+  },
+  "best_value": 0.005932188300559153,
+  "budget": 50,
+  "trial_number": 83,
+  "selection": "first 50 completed trials, by trial number"
+}

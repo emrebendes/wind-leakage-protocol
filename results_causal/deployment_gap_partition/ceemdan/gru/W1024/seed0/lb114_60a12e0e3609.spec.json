@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "ceemdan",
+  "model": "gru",
+  "W": 1024,
+  "look_back": 114,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 1024,
+      "batch_size": 32,
+      "dropout": 0.11430477077589453,
+      "hidden_size": 228,
+      "look_back": 114,
+      "lr": 0.0004912228134678316,
+      "num_layers": 4
+    }
+  }
+}

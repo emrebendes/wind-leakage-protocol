@@ -1,0 +1,5 @@
+{
+  "max_imfs": 4,
+  "noise_width": 0.05,
+  "ensemble_size": 250
+}

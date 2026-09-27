@@ -1,0 +1,1052 @@
+{
+  "ceemdan|bilstm": {
+    "H1": {
+      "reported": 0.31193485856056213,
+      "deployed": 1.2303431034088135,
+      "persistence": 0.7008412480354309,
+      "ratio": 3.944230885532604,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7319196462631226,
+      "deployed": 1.5720670223236084,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1478683218163757,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9205437302589417,
+      "deployed": 1.7520359754562378,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.9032620807307046,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.1132043600082397,
+      "deployed": 3.159820795059204,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.8384912138107468,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|cnn_lstm": {
+    "H1": {
+      "reported": 0.33940115571022034,
+      "deployed": 1.396899938583374,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.115778379305352,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7193401455879211,
+      "deployed": 1.538894534111023,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.139314124965561,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.896506130695343,
+      "deployed": 1.9033846855163574,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.12311396469767,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1096479892730713,
+      "deployed": 2.2662949562072754,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.0423548531745834,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|gru": {
+    "H1": {
+      "reported": 0.29034286737442017,
+      "deployed": 1.3608921766281128,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.6871899727887385,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7135124802589417,
+      "deployed": 1.4664998054504395,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.055324673393562,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9381029605865479,
+      "deployed": 1.8121638298034668,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.9317323427594912,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.1278983354568481,
+      "deployed": 1.7729291915893555,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.5718874085147414,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|lstm": {
+    "H1": {
+      "reported": 0.29387369751930237,
+      "deployed": 1.3920719623565674,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.73697365265271,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.6965609192848206,
+      "deployed": 1.5184156894683838,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1798749361755547,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.8964114785194397,
+      "deployed": 1.6635717153549194,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.8558125985876062,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.1180158853530884,
+      "deployed": 2.0420401096343994,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.8264857739382554,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|tcan": {
+    "H1": {
+      "reported": 0.24649536609649658,
+      "deployed": 1.7074447870254517,
+      "persistence": 0.7008412480354309,
+      "ratio": 6.926883916986217,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.6923633813858032,
+      "deployed": 1.4655652046203613,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1167572462988327,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.8898399472236633,
+      "deployed": 1.5784099102020264,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.7738132740912893,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.1258981227874756,
+      "deployed": 1.6498900651931763,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.465399072793915,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|tcn": {
+    "H1": {
+      "reported": 0.26860901713371277,
+      "deployed": 1.4329155683517456,
+      "persistence": 0.7008412480354309,
+      "ratio": 5.334577311075319,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7146379947662354,
+      "deployed": 1.9010357856750488,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.6601381393063144,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9726608991622925,
+      "deployed": 1.6400078535079956,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.6861044326141392,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.1747273206710815,
+      "deployed": 1.789137840270996,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.5230239467393358,
+      "beats_persistence": false
+    }
+  },
+  "ceemdan|transformer": {
+    "H1": {
+      "reported": 0.2849375009536743,
+      "deployed": 1.400296926498413,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.914400252026061,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7700957655906677,
+      "deployed": 1.6499744653701782,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.142557509201,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9700432419776917,
+      "deployed": 2.0125234127044678,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.074673917217755,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1617521047592163,
+      "deployed": 2.1037797927856445,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.8108680708796066,
+      "beats_persistence": false
+    }
+  },
+  "dwt|bilstm": {
+    "H1": {
+      "reported": 0.3146233558654785,
+      "deployed": 1.7430694103240967,
+      "persistence": 0.7008412480354309,
+      "ratio": 5.540178050447627,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.1236507892608643,
+      "deployed": 1.3567922115325928,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.207485657020798,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2147539854049683,
+      "deployed": 1.2787662744522095,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.052695681443598,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2312743663787842,
+      "deployed": 1.305790662765503,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.060519652176203,
+      "beats_persistence": true
+    }
+  },
+  "dwt|cnn_lstm": {
+    "H1": {
+      "reported": 0.29702073335647583,
+      "deployed": 1.8288453817367554,
+      "persistence": 0.7008412480354309,
+      "ratio": 6.157298721439177,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.102804183959961,
+      "deployed": 1.424496054649353,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.2917035275784479,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2108699083328247,
+      "deployed": 1.2613825798034668,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.041716018478145,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2459282875061035,
+      "deployed": 1.284693956375122,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.0311138845291115,
+      "beats_persistence": true
+    }
+  },
+  "dwt|gru": {
+    "H1": {
+      "reported": 0.3956453800201416,
+      "deployed": 1.3395464420318604,
+      "persistence": 0.7008412480354309,
+      "ratio": 3.3857249690712083,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.1066327095031738,
+      "deployed": 1.3046817779541016,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.17896549302238,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.1938979625701904,
+      "deployed": 1.240332841873169,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.0388935074510177,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2190860509872437,
+      "deployed": 1.2868156433105469,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.0555576796801622,
+      "beats_persistence": true
+    }
+  },
+  "dwt|lstm": {
+    "H1": {
+      "reported": 0.32580482959747314,
+      "deployed": 1.4943212270736694,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.586553332925974,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.1052902936935425,
+      "deployed": 1.330418348312378,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.203682286819444,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2003717422485352,
+      "deployed": 1.2426856756210327,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.0352506910011354,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2378425598144531,
+      "deployed": 1.319223403930664,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.0657440992563785,
+      "beats_persistence": true
+    }
+  },
+  "dwt|tcan": {
+    "H1": {
+      "reported": 0.36877989768981934,
+      "deployed": 1.683590054512024,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.565297797029303,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.1065967082977295,
+      "deployed": 1.2347750663757324,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.115831139851463,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2055293321609497,
+      "deployed": 1.2492356300354004,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.0362548605898338,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2339096069335938,
+      "deployed": 1.2696584463119507,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.028972008303912,
+      "beats_persistence": true
+    }
+  },
+  "dwt|tcn": {
+    "H1": {
+      "reported": 0.3117850422859192,
+      "deployed": 1.4878522157669067,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.772044883418389,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.1095167398452759,
+      "deployed": 1.2479746341705322,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.1247911720057189,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2241462469100952,
+      "deployed": 1.2759274244308472,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.0422998294946004,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2375060319900513,
+      "deployed": 1.3070772886276245,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.056218923253,
+      "beats_persistence": true
+    }
+  },
+  "dwt|transformer": {
+    "H1": {
+      "reported": 0.364908367395401,
+      "deployed": 1.4048084020614624,
+      "persistence": 0.7008412480354309,
+      "ratio": 3.849756617225674,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 1.122050404548645,
+      "deployed": 1.2342051267623901,
+      "persistence": 1.7748154401779175,
+      "ratio": 1.0999551550973865,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.2203009128570557,
+      "deployed": 1.2603650093078613,
+      "persistence": 1.8831238746643066,
+      "ratio": 1.0328313254777501,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 1.2342332601547241,
+      "deployed": 1.270546793937683,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.0294219374532223,
+      "beats_persistence": true
+    }
+  },
+  "eemd|bilstm": {
+    "H1": {
+      "reported": 0.298227995634079,
+      "deployed": 1.3139448165893555,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.405839947372161,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7294481992721558,
+      "deployed": 1.6577975749969482,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.272673476541721,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9906935095787048,
+      "deployed": 3.263975143432617,
+      "persistence": 1.8831238746643066,
+      "ratio": 3.2946366478373634,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1782081127166748,
+      "deployed": 3.784183979034424,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.21181286921287,
+      "beats_persistence": false
+    }
+  },
+  "eemd|cnn_lstm": {
+    "H1": {
+      "reported": 0.3252924978733063,
+      "deployed": 1.2546162605285645,
+      "persistence": 0.7008412480354309,
+      "ratio": 3.8568865520446396,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7103351950645447,
+      "deployed": 1.4979909658432007,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1088508302155655,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9690842032432556,
+      "deployed": 2.9547455310821533,
+      "persistence": 1.8831238746643066,
+      "ratio": 3.0490080440826928,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1700074672698975,
+      "deployed": 3.7303147315979004,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.1882828408798445,
+      "beats_persistence": false
+    }
+  },
+  "eemd|gru": {
+    "H1": {
+      "reported": 0.45944634079933167,
+      "deployed": 1.3771216869354248,
+      "persistence": 0.7008412480354309,
+      "ratio": 2.9973504295181623,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7596042156219482,
+      "deployed": 1.5994411706924438,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1056243999157567,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.0144871473312378,
+      "deployed": 2.2955312728881836,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.262750473406121,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.2201825380325317,
+      "deployed": 3.0967116355895996,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.5379085006271715,
+      "beats_persistence": false
+    }
+  },
+  "eemd|lstm": {
+    "H1": {
+      "reported": 0.30548080801963806,
+      "deployed": 1.2602688074111938,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.125525317224434,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7422927021980286,
+      "deployed": 1.5102894306182861,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.034627884857437,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.0318267345428467,
+      "deployed": 2.5457041263580322,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.467181786567987,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1935725212097168,
+      "deployed": 2.892426013946533,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.4233349566518037,
+      "beats_persistence": false
+    }
+  },
+  "eemd|tcan": {
+    "H1": {
+      "reported": 0.33187195658683777,
+      "deployed": 1.3338325023651123,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.019117843167629,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7434384226799011,
+      "deployed": 1.8388736248016357,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.4734713309180028,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 1.0212253332138062,
+      "deployed": 2.642308235168457,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.5873900198432085,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.2305939197540283,
+      "deployed": 2.6142289638519287,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.1243636279094096,
+      "beats_persistence": false
+    }
+  },
+  "eemd|tcn": {
+    "H1": {
+      "reported": 0.29812484979629517,
+      "deployed": 1.3139584064483643,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.407409873233227,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7608299851417542,
+      "deployed": 1.6687334775924683,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1933066653275475,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 0.9734929800033569,
+      "deployed": 2.3205173015594482,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.383702141900855,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1734000444412231,
+      "deployed": 2.719050884246826,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.3172411635126937,
+      "beats_persistence": false
+    }
+  },
+  "eemd|transformer": {
+    "H1": {
+      "reported": 0.3574880063533783,
+      "deployed": 1.269728660583496,
+      "persistence": 0.7008412480354309,
+      "ratio": 3.5518077194689557,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7826922535896301,
+      "deployed": 1.6789255142211914,
+      "persistence": 1.7748154401779175,
+      "ratio": 2.1450646873291546,
+      "beats_persistence": true
+    },
+    "H16": {
+      "reported": 1.049788236618042,
+      "deployed": 2.830542802810669,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.6962988382585027,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.243765950202942,
+      "deployed": 1.9953373670578003,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.6042707767745423,
+      "beats_persistence": false
+    }
+  },
+  "emd|bilstm": {
+    "H1": {
+      "reported": 0.44114258885383606,
+      "deployed": 2.4760944843292236,
+      "persistence": 0.7008412480354309,
+      "ratio": 5.612911894910307,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7687488198280334,
+      "deployed": 2.467329978942871,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.2095398591893836,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9323124885559082,
+      "deployed": 2.535675287246704,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.7197697321144987,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1189310550689697,
+      "deployed": 2.5356879234313965,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.2661699413420062,
+      "beats_persistence": false
+    }
+  },
+  "emd|cnn_lstm": {
+    "H1": {
+      "reported": 0.4448733627796173,
+      "deployed": 2.044229745864868,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.595082369266385,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7934776544570923,
+      "deployed": 2.8914942741394043,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.644077760599071,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.943067729473114,
+      "deployed": 2.5747265815734863,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.7301608369231016,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1210037469863892,
+      "deployed": 2.4148874282836914,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.15421887284112,
+      "beats_persistence": false
+    }
+  },
+  "emd|gru": {
+    "H1": {
+      "reported": 0.5355092287063599,
+      "deployed": 2.613649368286133,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.880680347190237,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.8004375100135803,
+      "deployed": 2.57413911819458,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.215915153889911,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9742617607116699,
+      "deployed": 2.6249170303344727,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.6942626059931234,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1453089714050293,
+      "deployed": 2.413224220275879,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.107050831283903,
+      "beats_persistence": false
+    }
+  },
+  "emd|lstm": {
+    "H1": {
+      "reported": 0.43667304515838623,
+      "deployed": 2.6056456565856934,
+      "persistence": 0.7008412480354309,
+      "ratio": 5.967040295882234,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7840762138366699,
+      "deployed": 2.677309513092041,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.4146036645995594,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9486689567565918,
+      "deployed": 2.6039788722991943,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.7448762329084198,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1336067914962769,
+      "deployed": 2.5521419048309326,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.251346696205211,
+      "beats_persistence": false
+    }
+  },
+  "emd|tcan": {
+    "H1": {
+      "reported": 0.5123509764671326,
+      "deployed": 4.761848449707031,
+      "persistence": 0.7008412480354309,
+      "ratio": 9.294114129618537,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7899585366249084,
+      "deployed": 2.8779311180114746,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.643141993638568,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9349836111068726,
+      "deployed": 2.41538667678833,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.5833465400841567,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.095430850982666,
+      "deployed": 2.699533462524414,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.464357709208914,
+      "beats_persistence": false
+    }
+  },
+  "emd|tcn": {
+    "H1": {
+      "reported": 0.47036057710647583,
+      "deployed": 2.1509201526641846,
+      "persistence": 0.7008412480354309,
+      "ratio": 4.572917581435145,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.7831035256385803,
+      "deployed": 2.9186906814575195,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.727081523579502,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9231036305427551,
+      "deployed": 2.645522117614746,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.865899374763876,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.1096638441085815,
+      "deployed": 2.0466363430023193,
+      "persistence": 1.5005148649215698,
+      "ratio": 1.844375081578358,
+      "beats_persistence": false
+    }
+  },
+  "emd|transformer": {
+    "H1": {
+      "reported": 0.471287339925766,
+      "deployed": 2.6519389152526855,
+      "persistence": 0.7008412480354309,
+      "ratio": 5.62701072273743,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.8095883727073669,
+      "deployed": 2.4850523471832275,
+      "persistence": 1.7748154401779175,
+      "ratio": 3.069525737965943,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.9680435657501221,
+      "deployed": 2.6213247776031494,
+      "persistence": 1.8831238746643066,
+      "ratio": 2.7078582724445104,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 1.139402151107788,
+      "deployed": 2.531383752822876,
+      "persistence": 1.5005148649215698,
+      "ratio": 2.22167717549219,
+      "beats_persistence": false
+    }
+  },
+  "vmd|bilstm": {
+    "H1": {
+      "reported": 0.053359709680080414,
+      "deployed": 0.7978998422622681,
+      "persistence": 0.7008412480354309,
+      "ratio": 14.953226826871777,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.18029803037643433,
+      "deployed": 1.9160479307174683,
+      "persistence": 1.7748154401779175,
+      "ratio": 10.627115153266274,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.36890047788619995,
+      "deployed": 1.983971357345581,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.378066650153826,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 0.5456501245498657,
+      "deployed": 1.874117374420166,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.4346503191330156,
+      "beats_persistence": false
+    }
+  },
+  "vmd|cnn_lstm": {
+    "H1": {
+      "reported": 0.08267123997211456,
+      "deployed": 0.7812416553497314,
+      "persistence": 0.7008412480354309,
+      "ratio": 9.449981101205791,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.15193335711956024,
+      "deployed": 1.9196856021881104,
+      "persistence": 1.7748154401779175,
+      "ratio": 12.635050252180374,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.35901305079460144,
+      "deployed": 1.9934990406036377,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.552720259587884,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 0.5461812615394592,
+      "deployed": 1.985399603843689,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.6350562416727152,
+      "beats_persistence": false
+    }
+  },
+  "vmd|gru": {
+    "H1": {
+      "reported": 0.05697379633784294,
+      "deployed": 0.7657238245010376,
+      "persistence": 0.7008412480354309,
+      "ratio": 13.439929822482815,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.17996332049369812,
+      "deployed": 1.8817648887634277,
+      "persistence": 1.7748154401779175,
+      "ratio": 10.45638013124637,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.36164969205856323,
+      "deployed": 1.9146722555160522,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.294273153165031,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 0.5485358238220215,
+      "deployed": 1.928575038909912,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.5158597764357857,
+      "beats_persistence": false
+    }
+  },
+  "vmd|lstm": {
+    "H1": {
+      "reported": 0.08686309307813644,
+      "deployed": 0.7774800062179565,
+      "persistence": 0.7008412480354309,
+      "ratio": 8.95063690074432,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.19102126359939575,
+      "deployed": 1.8709399700164795,
+      "persistence": 1.7748154401779175,
+      "ratio": 9.79440683598534,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.38938984274864197,
+      "deployed": 2.034111976623535,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.223844469760837,
+      "beats_persistence": false
+    },
+    "H24": {
+      "reported": 0.5517308115959167,
+      "deployed": 1.9057822227478027,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.4541884968055445,
+      "beats_persistence": false
+    }
+  },
+  "vmd|tcan": {
+    "H1": {
+      "reported": 0.06793862581253052,
+      "deployed": 0.8739854097366333,
+      "persistence": 0.7008412480354309,
+      "ratio": 12.864337470532654,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.17288075387477875,
+      "deployed": 1.9685883522033691,
+      "persistence": 1.7748154401779175,
+      "ratio": 11.38697228049607,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.3309357464313507,
+      "deployed": 1.856494426727295,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.609833469931318,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 0.5265201330184937,
+      "deployed": 1.9637799263000488,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.729733780628427,
+      "beats_persistence": false
+    }
+  },
+  "vmd|tcn": {
+    "H1": {
+      "reported": 0.04470309987664223,
+      "deployed": 0.9996918439865112,
+      "persistence": 0.7008412480354309,
+      "ratio": 22.362919948396225,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.14286524057388306,
+      "deployed": 1.7861945629119873,
+      "persistence": 1.7748154401779175,
+      "ratio": 12.502653239772854,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.33342233300209045,
+      "deployed": 1.8593333959579468,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.576511264907649,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 0.5465990900993347,
+      "deployed": 1.8903708457946777,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.4584229649030997,
+      "beats_persistence": false
+    }
+  },
+  "vmd|transformer": {
+    "H1": {
+      "reported": 0.06132984533905983,
+      "deployed": 0.9048380255699158,
+      "persistence": 0.7008412480354309,
+      "ratio": 14.753632926474076,
+      "beats_persistence": false
+    },
+    "H8": {
+      "reported": 0.20453935861587524,
+      "deployed": 1.9867061376571655,
+      "persistence": 1.7748154401779175,
+      "ratio": 9.713075034073018,
+      "beats_persistence": false
+    },
+    "H16": {
+      "reported": 0.3454592823982239,
+      "deployed": 1.850149393081665,
+      "persistence": 1.8831238746643066,
+      "ratio": 5.355622174160972,
+      "beats_persistence": true
+    },
+    "H24": {
+      "reported": 0.5474929213523865,
+      "deployed": 1.9317551851272583,
+      "persistence": 1.5005148649215698,
+      "ratio": 3.528365591203525,
+      "beats_persistence": false
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "ceemdan",
+  "model": "tcn",
+  "W": 256,
+  "look_back": 131,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 256,
+      "batch_size": 64,
+      "dropout": 0.03368540388393842,
+      "kernel_size": 3,
+      "look_back": 131,
+      "lr": 0.0005639684677741721,
+      "num_channels": 111,
+      "num_layers": 6
+    }
+  }
+}

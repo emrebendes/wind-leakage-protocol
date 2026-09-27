@@ -1,0 +1,398 @@
+{
+  "leaky": {
+    "H1": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.04893196179043679,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.24311487163816178,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.25561171699137913,
+        "rank": 3
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 0.34157532311621164,
+        "rank": 4
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.4239458626224881,
+        "rank": 5
+      },
+      {
+        "decomposition": "none",
+        "mean_RMSE": 0.666810135046641,
+        "rank": 6
+      }
+    ],
+    "H8": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.09362207601467769,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.5812397485687619,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.6031751519157773,
+        "rank": 3
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.7628957487287975,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.1073482206889562,
+        "rank": 5
+      },
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.140250569298154,
+        "rank": 6
+      }
+    ],
+    "H16": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.2903538332099006,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.8966263504255385,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.9539934339977446,
+        "rank": 3
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.0581143980934506,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.2054604291915894,
+        "rank": 5
+      },
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.2091672136670066,
+        "rank": 6
+      }
+    ],
+    "H24": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.4767577222415379,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 1.1375545547122048,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.1514070999054682,
+        "rank": 3
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.1885434218815394,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.2307936066672915,
+        "rank": 5
+      },
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.2389931338174003,
+        "rank": 6
+      }
+    ]
+  },
+  "partition": {
+    "H1": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.0655696594289371,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.28419878653117586,
+        "rank": 2
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 0.33241218896139235,
+        "rank": 3
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.34293243005162194,
+        "rank": 4
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.4563347810790652,
+        "rank": 5
+      }
+    ],
+    "H8": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.17534973862625303,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.718323120049068,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.7462208810306731,
+        "rank": 3
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.7918035189310709,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.1086264451344807,
+        "rank": 5
+      }
+    ],
+    "H16": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.35296260317166644,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.9323244634128752,
+        "rank": 2
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.954044813201541,
+        "rank": 3
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.0100206761133104,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.2068317106791906,
+        "rank": 5
+      }
+    ],
+    "H24": [
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.5444522670337132,
+        "rank": 1
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.1280472392127627,
+        "rank": 2
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 1.1323718967891874,
+        "rank": 3
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.2032714855103266,
+        "rank": 4
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.2331270093009585,
+        "rank": 5
+      }
+    ]
+  },
+  "causal": {
+    "H1": [
+      {
+        "decomposition": "none",
+        "mean_RMSE": 0.6603659022422064,
+        "rank": 1
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 0.6623923892066592,
+        "rank": 2
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 0.667630930741628,
+        "rank": 3
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 0.6717226448513213,
+        "rank": 4
+      },
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 0.6721797386805216,
+        "rank": 5
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 0.698208056745075,
+        "rank": 6
+      }
+    ],
+    "H8": [
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.1387280850183397,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 1.139983092035566,
+        "rank": 2
+      },
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 1.1421104669570923,
+        "rank": 3
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.1421532063257127,
+        "rank": 4
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.143509478796096,
+        "rank": 5
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.155487304642087,
+        "rank": 6
+      }
+    ],
+    "H16": [
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.2085708039147514,
+        "rank": 1
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 1.20886873063587,
+        "rank": 2
+      },
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.2089673110416956,
+        "rank": 3
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.210692672502427,
+        "rank": 4
+      },
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 1.2108734391984486,
+        "rank": 5
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.2208420889718192,
+        "rank": 6
+      }
+    ],
+    "H24": [
+      {
+        "decomposition": "none",
+        "mean_RMSE": 1.2359743856248402,
+        "rank": 1
+      },
+      {
+        "decomposition": "dwt",
+        "mean_RMSE": 1.2362899950572424,
+        "rank": 2
+      },
+      {
+        "decomposition": "eemd",
+        "mean_RMSE": 1.2367845149267287,
+        "rank": 3
+      },
+      {
+        "decomposition": "ceemdan",
+        "mean_RMSE": 1.2371582019896734,
+        "rank": 4
+      },
+      {
+        "decomposition": "vmd",
+        "mean_RMSE": 1.237380618140811,
+        "rank": 5
+      },
+      {
+        "decomposition": "emd",
+        "mean_RMSE": 1.2485881816773188,
+        "rank": 6
+      }
+    ]
+  },
+  "rank_agreement": {
+    "H1": {
+      "spearman_rho": -0.37142857142857144,
+      "n_methods": 6,
+      "leaky_best": "vmd",
+      "causal_best": "none"
+    },
+    "H8": {
+      "spearman_rho": -0.08571428571428563,
+      "n_methods": 6,
+      "leaky_best": "vmd",
+      "causal_best": "none"
+    },
+    "H16": {
+      "spearman_rho": 0.02857142857142858,
+      "n_methods": 6,
+      "leaky_best": "vmd",
+      "causal_best": "eemd"
+    },
+    "H24": {
+      "spearman_rho": -0.6571428571428573,
+      "n_methods": 6,
+      "leaky_best": "vmd",
+      "causal_best": "none"
+    }
+  }
+}

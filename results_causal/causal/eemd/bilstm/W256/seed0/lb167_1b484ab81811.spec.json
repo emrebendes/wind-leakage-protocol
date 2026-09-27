@@ -1,0 +1,21 @@
+{
+  "arm": "causal",
+  "decomposition": "eemd",
+  "model": "bilstm",
+  "W": 256,
+  "look_back": 167,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 256,
+      "batch_size": 32,
+      "dropout": 0.05806785841904086,
+      "hidden_size": 119,
+      "look_back": 167,
+      "lr": 0.0016905392925934564,
+      "num_layers": 4
+    }
+  }
+}

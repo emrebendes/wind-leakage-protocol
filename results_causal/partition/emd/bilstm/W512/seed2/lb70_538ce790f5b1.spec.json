@@ -1,0 +1,21 @@
+{
+  "arm": "partition",
+  "decomposition": "emd",
+  "model": "bilstm",
+  "W": 512,
+  "look_back": 70,
+  "seed": 2,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.03315755435488081,
+      "hidden_size": 201,
+      "look_back": 70,
+      "lr": 0.0017098060765321978,
+      "num_layers": 3
+    }
+  }
+}

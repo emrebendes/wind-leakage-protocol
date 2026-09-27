@@ -1,0 +1,22 @@
+{
+  "arm": "deployment_gap",
+  "decomposition": "emd",
+  "model": "bilstm",
+  "W": 512,
+  "look_back": 108,
+  "seed": 1,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "leaky",
+    "tuned": {
+      "W": 512,
+      "batch_size": 32,
+      "dropout": 0.02645584451836866,
+      "hidden_size": 128,
+      "look_back": 108,
+      "lr": 0.0021912223770970077,
+      "num_layers": 2
+    }
+  }
+}

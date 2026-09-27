@@ -1,0 +1,18 @@
+{
+  "arm": "causal",
+  "decomposition": "ceemdan",
+  "model": "bilstm",
+  "best_params": {
+    "hidden_size": 126,
+    "num_layers": 4,
+    "dropout": 0.041481400159776805,
+    "W": 512,
+    "look_back": 159,
+    "lr": 0.00389135418678564,
+    "batch_size": 64
+  },
+  "best_value": 0.01060169974580789,
+  "budget": 50,
+  "trial_number": 51,
+  "selection": "first 50 completed trials, by trial number"
+}

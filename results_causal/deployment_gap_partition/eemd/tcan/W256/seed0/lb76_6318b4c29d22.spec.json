@@ -1,0 +1,24 @@
+{
+  "arm": "deployment_gap_partition",
+  "decomposition": "eemd",
+  "model": "tcan",
+  "W": 256,
+  "look_back": 76,
+  "seed": 0,
+  "station": null,
+  "horizon_set": "1-8-16-24",
+  "extra": {
+    "source_arm": "partition",
+    "tuned": {
+      "W": 256,
+      "att_dim": 64,
+      "batch_size": 32,
+      "dropout": 0.05490604377024658,
+      "kernel_size": 5,
+      "look_back": 76,
+      "lr": 0.00017861746223616905,
+      "num_channels": 86,
+      "num_layers": 9
+    }
+  }
+}

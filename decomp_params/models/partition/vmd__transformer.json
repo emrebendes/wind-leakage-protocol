@@ -1,0 +1,20 @@
+{
+  "arm": "partition",
+  "decomposition": "vmd",
+  "model": "transformer",
+  "best_params": {
+    "d_model": 32,
+    "nhead": 8,
+    "num_layers": 3,
+    "dim_feedforward": 380,
+    "dropout": 0.01271428010384551,
+    "W": 512,
+    "look_back": 128,
+    "lr": 0.0005922925031064319,
+    "batch_size": 32
+  },
+  "best_value": 0.0013111650010493273,
+  "budget": 50,
+  "trial_number": 27,
+  "selection": "first 50 completed trials, by trial number"
+}
