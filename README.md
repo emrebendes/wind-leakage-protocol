@@ -2,7 +2,7 @@
 
 Code and per-run results for the paper
 
-> Bendeş E, Bilgiz Tüzemen G, Tükenmez E. *A per-origin decomposition protocol for operationally valid wind speed forecasting: partition-level splitting is not sufficient.* Submitted to Applied Energy, 2026.
+> Bendeş E, Bilgiç Tüzemen G, Tükenmez E. *A per-origin decomposition protocol for operationally valid wind speed forecasting: partition-level splitting is not sufficient.* Submitted to Applied Energy, 2026.
 
 The paper measures how much of the accuracy gain reported for decomposition-based wind speed forecasting comes from decomposition and how much from *when* the decomposition is computed. Three regimes are compared on the same data, code, splits, search budget and seeds:
 
