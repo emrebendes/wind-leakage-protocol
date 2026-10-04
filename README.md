@@ -2,7 +2,9 @@
 
 Code and per-run results for the paper
 
-> Bendeş E, Bilgiç Tüzemen G, Tükenmez E. *A per-origin decomposition protocol for operationally valid wind speed forecasting: partition-level splitting is not sufficient.* Submitted to Applied Energy, 2026.
+> Bendeş E, Bilgiç Tüzemen G, Tükenmez E. *Decomposition timing as a source of data leakage in wind speed forecasting: a matched measurement of reported and delivered accuracy.* Manuscript under review, 2026.
+
+Archived at Zenodo: [10.5281/zenodo.23000925](https://doi.org/10.5281/zenodo.23000925) (concept DOI, resolves to the latest version).
 
 The paper measures how much of the accuracy gain reported for decomposition-based wind speed forecasting comes from decomposition and how much from *when* the decomposition is computed. Three regimes are compared on the same data, code, splits, search budget and seeds:
 
@@ -21,18 +23,18 @@ run.py                  single entry point for every stage
 src/                    pipeline: config, decompositions, causal feature builder, dataset, models,
                         Optuna search, final training, deployment evaluation, analyses
 tests/                  causality suite, ledger and wiring tests (run before precompute)
-tablo4_sondasi.py       permutation probe of Section 3.3.1 (Table 4)
-rejim_farki.py          shift probe and aligned control of Appendix A
+tablo4_sondasi.py       permutation probe of Section 3.3 (Appendix A.1, Table A.1)
+rejim_farki.py          shift probe and aligned control (Appendix A.2)
 k_kontrol.py            checks that the three regimes agree on the channel count K (Section 3.5)
 equalize_budget.py      gives every Optuna study the same number of completed trials (50)
 reindex.py              rebuilds the result index from the metrics files, needed before `run.py analyze`
 veri_ozeti.py           descriptive statistics of the record (Section 6)
-figures/analysis/       JSON produced by `run.py analyze`, the source of Tables 6–13
+figures/analysis/       JSON produced by `run.py analyze`, the source of Tables 4–8 and D.1–D.3
 results_causal/         per-run `*.metrics.json` and `*.spec.json` for every (regime, method,
                         architecture, seed), including the tuned hyperparameters
-decomp_params/          tuned decomposition parameters per window size (Table 5)
-paper/appendix_c/       paired intervals, Diebold–Mariano and metric counterparts (Appendix C)
-paper/figures/          scripts that draw the figures of the paper
+decomp_params/          tuned decomposition parameters per window size (Table B.1)
+paper/appendix_c/       paired intervals, Diebold–Mariano, station-clustered intervals and metric counterparts (Appendix C)
+paper/figures/          scripts that draw Figs. 1–4 and A.1 (fig1.py … fig4.py, figA1.py)
 data_files/             empty; see data_files/README.md
 ```
 
@@ -71,7 +73,7 @@ python run.py status                         # progress of every stage
 
 In the code the three regimes are called *arms* (`causal`, `leaky`, `partition`). The paper uses the word *regime* for the same thing.
 
-The Appendix C numbers are produced by `python paper/appendix_c/ekC_hesapla.py` run from the repository root, which reads the metrics files, and `paper/appendix_c/ekC_dm_npz.py` computes the per-horizon Diebold–Mariano test from the stored predictions of the deployment run.
+The Appendix C numbers are produced by `python paper/appendix_c/ekC_hesapla.py` run from the repository root, which reads the metrics files, `paper/appendix_c/ekC_dm_npz.py` computes the per-horizon Diebold–Mariano test from the stored predictions of the deployment run, and `paper/appendix_c/ekC_kumeli.py` recomputes the intervals on station means and the Diebold–Mariano test with wider Newey–West bandwidths.
 
 ## License
 
