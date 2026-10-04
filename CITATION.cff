@@ -5,20 +5,20 @@ authors:
   - family-names: Bendeş
     given-names: Emre
     affiliation: "Nevşehir Hacı Bektaş Veli University, Department of Computer Engineering"
-  - family-names: Bilgiz Tüzemen
-    given-names: Gülnahar
+  - family-names: Bilgiç Tüzemen
+    given-names: Gülbahar
     affiliation: "Nevşehir Hacı Bektaş Veli University, Department of Metallurgical and Materials Engineering"
   - family-names: Tükenmez
     given-names: Ertuğrul
     affiliation: "Nevşehir Meteorological Directorate"
-version: "1.0.0"
-date-released: "2026-09-27"
+version: "1.0.2"
+date-released: "2026-10-04"
 license: MIT
 repository-code: "https://github.com/emrebendes/wind-leakage-protocol"
-doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.23000925"
 preferred-citation:
   type: article
-  title: "A per-origin decomposition protocol for operationally valid wind speed forecasting: partition-level splitting is not sufficient"
+  title: "Decomposition timing as a source of data leakage in wind speed forecasting: a matched measurement of reported and delivered accuracy"
   authors:
     - family-names: Bendeş
       given-names: Emre
@@ -26,6 +26,5 @@ preferred-citation:
       given-names: Gülbahar
     - family-names: Tükenmez
       given-names: Ertuğrul
-  journal: "Applied Energy"
   year: 2026
-  notes: "submitted"
+  notes: "manuscript under review"
